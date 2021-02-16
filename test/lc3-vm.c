@@ -13,6 +13,9 @@
 #include <sys/mman.h>
 
 /* Registers */
+
+/** 8 个通用目的寄存器（R0-R7）/
+/**  R_PC  **/
 enum {
     R_R0 = 0,
     R_R1,
